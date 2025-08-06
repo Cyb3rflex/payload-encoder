@@ -26,77 +26,82 @@ A simple yet powerful Python tool for encoding and decoding payloads in multiple
 Install dependencies:
 ```bash
 pip install pyperclip
+```
+---
 
-🖥️ CLI Usage
+##🖥️ CLI Usage
 
-▶️ Encode a Payload
+#▶️ Encode a Payload
 
+```bash
 python encoder.py encode base64 "ls -la"
+```
 
-🔁 Decode a Payload
+# 🔁 Decode a Payload
 
+```bash
 python encoder.py decode base64 "bHMgLWxhCg=="
+```
 
-📋 With Clipboard Copy
+# 📋 With Clipboard Copy
 
+```bash
 python encoder.py encode hex "rm -rf /" --copy
-
+```
 
 ---
 
-🖼️ GUI Usage
+# 🖼️ GUI Usage
 
 > Tkinter GUI doesn't work natively in Termux. Run it on PC or VNC.
 
 
+  - python gui.py
 
-python gui.py
-
-You’ll get a window interface to input payloads, select encoding type, and get results with clipboard copy support.
+  >You’ll get a window interface to input payloads, select encoding type, and get results with clipboard copy support.
 
 
 ---
 
-📂 Project Structure
+## 📂 Project Structure
 
 payload-encoder/
 ├── encoder.py       # Main CLI script
 ├── gui.py           # GUI application using Tkinter
 └── README.md        # This file
 
-
 ---
 
-💡 Future Features (Planned)
+## 💡 Future Features (Planned)
 
-Encode/decode from files
+ - Encode/decode from files
 
-Auto-detect payload type
+ - Auto-detect payload type
 
-Export results to a file
+ - Export results to a file
 
-Android APK GUI version
+ - Android APK GUI version
 
-
-
----
-
-🧑‍💻 Author
-
-@Cyb3rflex
-Termux-powered security tools developer 💻📱🔐
 
 
 ---
 
-⚠️ Disclaimer
+## 🧑‍💻 Author
+
+> @Cyb3rflex
+- Termux-powered security tools developer 💻📱🔐
+
+
+---
+
+## ⚠️ Disclaimer
 
 This tool is intended for educational and ethical use only. Do not use it for illegal activities.
 
 
 ---
 
-⭐ Star This Repo
+## ⭐ Star This Repo
 
 If you find this project helpful, consider giving it a ⭐ on GitHub. It really helps!
 
