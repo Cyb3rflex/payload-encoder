@@ -29,9 +29,9 @@ pip install pyperclip
 ```
 ---
 
-##🖥️ CLI Usage
+🖥️ CLI Usage
 
-#▶️ Encode a Payload
+▶️ Encode a Payload
 
 ```bash
 python encoder.py encode base64 "ls -la"
@@ -55,21 +55,21 @@ python encoder.py encode hex "rm -rf /" --copy
 
 > Tkinter GUI doesn't work natively in Termux. Run it on PC or VNC.
 
-
-  - python gui.py
-
+  ```bash
+   python gui.py
+   ```
   >You’ll get a window interface to input payloads, select encoding type, and get results with clipboard copy support.
 
 
 ---
 
 ## 📂 Project Structure
-
+```bash
 payload-encoder/
 ├── encoder.py       # Main CLI script
 ├── gui.py           # GUI application using Tkinter
 └── README.md        # This file
-
+'''
 ---
 
 ## 💡 Future Features (Planned)
