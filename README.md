@@ -64,12 +64,14 @@ python encoder.py encode hex "rm -rf /" --copy
 ---
 
 ## 📂 Project Structure
+
 ```bash
 payload-encoder/
 ├── encoder.py       # Main CLI script
 ├── gui.py           # GUI application using Tkinter
 └── README.md        # This file
-'''
+```
+
 ---
 
 ## 💡 Future Features (Planned)
