@@ -107,10 +107,4 @@ This tool is intended for educational and ethical use only. Do not use it for il
 
 If you find this project helpful, consider giving it a ⭐ on GitHub. It really helps!
 
----
 
-### ✅ After saving:
-```bash
-git add README.md
-git commit -m "Added README with full usage instructions"
-git push
